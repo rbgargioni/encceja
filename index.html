@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula Livre</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style copy.css">
+</head>
+
+<body>
+  <header class="cabecalho" id="cab">
+    <a href=""><img src="./acess/logo_aulalivre.svg" alt=""></a>
+  </header>
+  <main>
+    <div class="container-principal" id="diciplinas">
+      <section class="container-propaganda">
+        <div class="texto-conexao-enem" id="menuprincipal">
+          <p class="conexao">Praticando</p>
+          <p class="enem">Encceja</p>   
+          <nav class="tabela1"> <!-- Menus -->
+            <button id="btn-mobile" class="botao-aulas" onclick="clickMenu1()" href="">ARTES</button>
+            <button id="btn-mobile2" class="botao-aulas" onclick="clickMenu2()" href="">BIOLOGIA</button>
+            <button id="btn-mobile3" class="botao-aulas" onclick="clickMenu3()" href="">ED.FISICA</button>
+            <button id="btn-mobile4" class="botao-aulas" onclick="clickMenu4()" href="">ESPANHOL</button>
+            <button id="btn-mobile5" class="botao-aulas" onclick="clickMenu5()" href="">FILOSOFIA</button>
+            <button id="btn-mobile6" class="botao-aulas" onclick="clickMenu6()" href="">FÍSICA</button>
+            <button id="btn-mobile7" class="botao-aulas" onclick="clickMenu7()" href="">GEOGRAFIA</button>
+            <button id="btn-mobile8" class="botao-aulas" onclick="clickMenu8()" href="">HISTÓRIA</button>
+            <button id="btn-mobile9" class="botao-aulas" onclick="clickMenu9()" href="">INGLÊS</button>
+            <button id="btn-mobile10" class="botao-aulas" onclick="clickMenu10()" href="">LITERATURA</button>
+            <button id="btn-mobile11" class="botao-aulas" onclick="clickMenu11()" href="">MATEMÁTICA</button>
+            <button id="btn-mobile12" class="botao-aulas" onclick="clickMenu12()" href="">PORTUGUÊS</button>
+            <button id="btn-mobile13" class="botao-aulas" onclick="clickMenu13()" href="">QUÍMICA</button>
+            <button id="btn-mobile14" class="botao-aulas" onclick="clickMenu14()" href="">REDAÇÃO</button>
+            <button id="btn-mobile15" class="botao-aulas" onclick="clickMenu15()" href="">SOCIOLOGIA</button>
+          </nav>
+        </div>
+        <!-- Menu de Artes -->
+        <div class="texto-conexao-enem2" id="ARTES">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasartes">
+            </div>
+            <div class="descricao_tabela" id="artesano1">  <!--Volume 1-->
+              <p class="tituloaba1" id="arteantigav1">AULAS DA LIÇÃO - HISTÓRIA DA ARTE ANTIGA</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Arte e Cultura Brasileira I</h1>
+                  <a href="https://plataforma.aulalivre.net/disciplina/artes/02---arte-moderna/arte-e-cultura-brasileira-i">
+                    <p><img src="acess/videos-solid-24.png" alt="Link para aula de Idade Média"></p>
+                  </a>
+                </div>               
+              <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de BIOLOGIA -->
+        <div class="texto-conexao-enem2" id="BIOLOGIA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasbiologia">
+            </div>
+            <!--Biologia Volume 1-->
+            <div class="descricao_tabela" id="biologiano1">
+              <p class="tituloaba1" id="origem_da_vida">AULAS DA LIÇÃO - ORIGEM DA VIDA</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Teorias da origem da vida</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/biologia/01---origem-da-vida-e-evolucao/origem-da-vida">
+                    <p><img src="acess/videos-solid-24.png" alt="Assista o Video"></p>
+                  </a>
+                </div>                
+              <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div> 
+        <!-- Menu de Educação fisica -->
+        <div class="texto-conexao-enem2" id="EDFISICA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasedfisica">
+            </div>
+            <!--Ed Fisica Volume 1-->
+            <div class="descricao_tabela" id="edFisicano1">
+              <p class="tituloaba1" id="BIOMECANICA_E_SAUDE_V1">AULAS DA LIÇÃO - ATIVIDADE FÍSICA E SEU IMPACTO: ESPORTES, BIOMECÂNICA E SAÚDE I
+              </p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Questão 22 | Estilo de vida na saúde | Enem 2018</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/questoes-enem/enem-2018-linguagens-codigos-e-suas-tecnologias-caderno-amarelo/questao22-enem2018">
+                    <p><img src="acess/videos-solid-24.png" alt="Assista o Video"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de Espanhol -->
+        <div class="texto-conexao-enem2 menu_aulas" id="ESPANHOL">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasespanhol">
+            </div>
+            <!--Espanhol Volume 1-->
+            <div class="descricao_tabela menu_aulas" id="espanhol_ano1">
+              <p class="tituloaba1" id="texto_para_interpretar_v1">AULAS DA LIÇÃO - INTERPRETAÇÃO TEXTUAL</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Interpretação de texto</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/espanhol/06---interpretacao-de-texto/interpretacao-de-texto">
+                    <p><img src="acess/videos-solid-24.png" alt="Assista o Video"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>             
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de FILOSOFIA -->
+        <div class="texto-conexao-enem2" id="FILOSOFIA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasfilosofia">
+        </div>
+            <!-- Menu de FILOSOFIA Volume 1 -->
+            <div class="descricao_tabela" id="filoAno1">
+              <p class="tituloaba1" id="Conceitos_FilosóficosV1">AULAS DA LIÇÃO - Conceitos Filosóficos</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Questão 52 | Conceito de conhecimento | Enem 2020</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/questoes-enem/enem-2020-ciencias-humanas-e-suas-tecnologias-caderno-amarelo/enem-2020-humanas-52">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de FISICA -->
+        <div class="texto-conexao-enem2" id="FISICA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasfisica">
+            </div>
+            <!-- Menu de FISICA Volume 1 -->
+            <div class="descricao_tabela" id="fisicaAno1">
+              <p class="tituloaba1" id="MRU_E_MRUV_V1">AULAS DA LIÇÃO - MRU E MRUV</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">MRU e MRUV</h1>
+                  <a href="https://plataforma.aulalivre.net/disciplina/fisica/02---cinematica/aula-mru-mruv-fis">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de GEOGRAFIA -->
+        <div class="texto-conexao-enem2" id="GEOGRAFIA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasgeografia">
+            </div>
+            <!-- Menu de GEOGRAFIA Volume 1 -->
+            <div class="descricao_tabela" id="geografiaAno1">
+              <p class="tituloaba1" id="CARTOGRAFIA_V1">AULAS DA LIÇÃO - CARTOGRAFIA</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Apresentação dos Conteúdos | Geocartografia</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/geografia/01---geocartografia/apresentacao-dos-conteudos">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de HISTÓRIA  -->
+        <div class="texto-conexao-enem2" id="HISTORIA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulashistoria">
+
+            </div>
+            <!-- Menu de HIstoria Volume 1 -->
+            <div class="descricao_tabela" id="historiaAno1">
+              <p class="tituloaba1" id="Antiguidade_v1">AULAS DA LIÇÃO - Antiguidade</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Civilizações Orientais: Mesopotâmia</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/historia-geral/01---antiguidade/antiguidade-oriental-ii">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de INGLÊS   -->
+        <div class="texto-conexao-enem2" id="INGLES">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasingles">
+            </div>
+            <!-- Menu de INGLES Volume 1 -->
+            <div class="descricao_tabela" id="inglesAno1">
+              <p class="tituloaba1" id="cartuns_charges_v1">Aulas da Lição – A criatividade nos cartuns e charges</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Questão 01 | Phrasal Verbs | Enem 2019</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/questoes-enem/enem-2019-linguagens-codigos-e-suas-tecnologias-caderno-branco/enem-2019-linguagens-ing-01">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de LITERATURA   -->
+        <div class="texto-conexao-enem2" id="LITERATURA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasliteratura">
+            </div>
+            <!-- Menu de LIERATURA Volume 1 -->
+            <div class="descricao_tabela" id="literaturaAno1">
+              <p class="tituloaba1" id="generos_literarios_v1">AULAS DA LIÇÃO – Gêneros literários</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Gêneros Literários I</h1>
+                  <a
+                    href="https://plataforma.aulalivre.net/disciplina/literatura/01---generos-literarios/generos-literarios-i">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+                <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+              </nav>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu de MATEMÁTICA   -->
+        <div class="texto-conexao-enem2" id="MATEMATICA">
+          <nav class="container-propaganda">
+          <div class="tabela_menuPequeno" id="aulasmatematica">
+   </div>
+        <!-- Menu de MATEMÁTICA Volume 1 -->
+        <div class="descricao_tabela" id="matematicaAno1">
+              <p class="tituloaba1" id="dados_estatisticos_v1">Aulas da lição - Os dados estatísticos no dia a dia do cidadão</p>
+              <nav class="tabela3">
+                <div id="container_aula">
+                  <h1 id="palavra2">Estatística I</h1>
+                  <a href="https://plataforma.aulalivre.net/disciplina/matematica/14---estatistica/estatistica-i">
+                    <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                  </a>
+                </div>
+            <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+          </nav>       
+        </div>
+        </nav>
+      </div>
+         <!-- Menu de Português-->
+         <div class="texto-conexao-enem2" id="PORTUGUES">
+                <nav class="container-propaganda">
+                  <div class="tabela_menuPequeno" id="aulasPORTUGUES">
+                 </div>
+                    <!-- Menu de Português Volume 1 -->
+                  <div class="descricao_tabela" id="portuguesAno1">
+                    <p class="tituloaba1" id="adjetivo_pronome_v1">AULAS DA LIÇÃO – Classes nominais | Substantivo, adjetivo e pronome</p>
+                      <nav class="tabela3">
+                        <div id="container_aula">
+                          <h1 id="palavra2">Substantivos</h1>
+                          <a href="https://plataforma.aulalivre.net/disciplina/portugues/04---morfologia-i/classes-gramaticais-i-substantivo">
+                            <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                          </a>
+                        </div>              
+                      <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+                    </nav>
+                  </div>                
+                </nav>
+        </div>
+        <!-- Menu de QUÍMICA-->
+        <div class="texto-conexao-enem2" id="QUIMICA">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasquimica">
+           </div>
+              <!-- Menu de QUÍMICA Volume 1 -->
+              <div class="descricao_tabela" id="quimicaAno1">
+                <p class="tituloaba1" id="propriedaes_da_materia_v1">Aulas da lição – PROPRIEDADES DA MATÉRIA</p>
+                  <nav class="tabela3">
+                    <div id="container_aula">
+                      <h1 id="palavra2">Substâncias e misturas</h1>
+                      <a
+                        href="https://plataforma.aulalivre.net/disciplina/quimica/01---estrutura-atomica/misturas-e-substancias">
+                        <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                      </a>
+                    </div>                   
+                    <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+                  </nav>
+              </div>
+          </nav>
+        </div>
+        <!-- Menu de REDAÇÃO-->
+        <div class="texto-conexao-enem2" id="REDACAO">
+          <nav class="container-propaganda">
+            <div class="tabela_menuPequeno" id="aulasredacao">
+           </div>
+            <!-- Menu de REDAÇÃO 1 -->
+            <div class="descricao_tabela" id="redacaoAno1">
+              <p class="tituloaba1" id="variacao_linguistica_v1">AULAS DA LIÇÃO - Gramática e Variação linguística</p>
+                <nav class="tabela3">
+                  <!-- Questão 6 | Enem 2018 -->
+                  <div id="container_aula">
+                    <h1 id="palavra2">Questão 6 | Norma padrão | Enem 2018</h1>
+                    <a href="https://plataforma.aulalivre.net/disciplina/questoes-enem/enem-2018-linguagens-codigos-e-suas-tecnologias-caderno-amarelo/questao6-enem2018">
+                      <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                    </a>
+                  </div>
+                  <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>                                                  
+                </nav>               
+            </div>           
+          </nav>
+        </div>
+        <!-- Menu de SOCIOLOGIA-->
+        <div class="texto-conexao-enem2" id="SOCIOLOGIA">
+          <nav class="container-propaganda">
+              <div class="tabela_menuPequeno" id="aulassociologia">
+             </div>
+              <!-- Menu de SOCIOLOGIA 1 -->
+              <div class="descricao_tabela" id="sociologiaAno1">
+                <p class="tituloaba1" id="movimentos_sociais_v1">AULAS DA LIÇÃO - DIREITOS DOS CIDADÃOS E MOVIMENTOS SOCIAIS</p>
+                <nav class="tabela3">
+                  <div id="container_aula">
+                    <h1 id="palavra2">Movimentos Sociais</h1>
+                    <a href="https://plataforma.aulalivre.net/disciplina/sociologia/02---estratificacao-social/movimentos-sociais">
+                      <p><img src="acess/videos-solid-24.png" alt="Assistente de vídeo"></p>
+                    </a>
+                  </div>
+                  <button id="voltar" class="botao-aulas" onclick="voltar()" href="">Voltar</button>
+                </nav>
+              </div>
+          </nav>
+    </div>
+  </main>
+  <script src="./js/index.js"></script>
+</body>
+</html>
